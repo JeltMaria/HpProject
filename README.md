@@ -86,7 +86,7 @@ HpProject/
 3. **Настройте переменные окружения**
    Создайте файл `.env` в папке `backend/` со следующим содержимым:
    ```plaintext
-   DATABASE_URL=postgresql://hp_user:1234@db:5432/hp_db
+   DATABASE_URL=postgresql://данные для подключения к Вашей БД
    GOOGLE_API_KEY=<your-google-api-key>
    HUGGINGFACE_TOKEN=<your-huggingface-token>
    ```
