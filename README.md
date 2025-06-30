@@ -27,9 +27,9 @@ npm install
 
 Настройте переменные окружения:
 
-Создайте файл .env в директории backend/ с содержимым:DATABASE_URL=postgresql://данные доступа Вашей БД
+Создайте файл .env в директории backend/ с содержимым:DATABASE_URL=postgresql://hp_user:1234@db:5432/hp_db
 GOOGLE_API_KEY=<your-google-api-key>
-HUGGINGFACE_TOKEN="токен с HF"
+HUGGINGFACE_TOKEN=токен HF
 
 
 
